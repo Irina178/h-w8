@@ -1,0 +1,38 @@
+.header {
+  background-color: $white-color;
+  border-bottom: $border-white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  font-family: $pretty-font;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: $primary-color;
+}
+
+.navigation-logo-color {
+  color: $text-color;
+}
+.navigation-list {
+  display: none;
+}
+.communication {
+  display: none;
+}
+.menu-header {
+  position: absolute;
+  left: 340px;
+  top: 36px;
+  bottom: 22px;
+  color: $text-color;
+}

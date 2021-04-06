@@ -1,0 +1,98 @@
+.about {
+  margin-top: 80px;
+  height: 600px;
+  background-image: $background-image;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-about {
+  width: 1200px;
+  height: 600px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $white-color;
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.modal-btn {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $white-color;
+  background-color: $primary-color;
+  box-shadow: $contact;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 10px 32px;
+  margin-bottom: 200px;
+  border: none;
+}
+
+/* <!---функции--> */
+.about-function {
+  background-color: $white-color;
+  padding-top: 94px;
+}
+
+.about-list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.about-list-item {
+  justify-content: space-between;
+  flex-basis: calc(100% / 4 -30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.icon {
+  width: 270px;
+  height: 120px;
+  background: $icon-back;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+  padding: 25px 100px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $text-color;
+  padding-bottom: 10px;
+}
+
+.subtitle-light-theme {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: $grey-color;
+}

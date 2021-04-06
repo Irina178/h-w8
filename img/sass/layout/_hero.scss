@@ -1,0 +1,29 @@
+/* <!---чем ми занимаемся--> */
+
+.about-hero {
+  background-color: $white-color;
+  padding: 94px 0px 94px;
+}
+
+.title-hero {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.666;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $text-color;
+  padding-bottom: 50px;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.social-links-item {
+  justify-content: space-between;
+  flex-basis: calc(100% / 4 -30px);
+  margin-left: 30px;
+}

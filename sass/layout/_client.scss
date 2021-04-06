@@ -1,0 +1,69 @@
+.clients {
+  background-color: $white-color;
+  padding: 94px 0px 94px;
+}
+
+.clients-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: text-color;
+  padding-bottom: 50px;
+}
+
+.clients-icon {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  justify-content: center;
+  & li {
+    width: 170px;
+    height: 90px;
+    background: $white-color;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 15px 0px;
+    fill: $button-svg;
+    &:hover a .logo-svg,
+    & a:focus .logo-svg {
+      fill: $primary-color;
+    }
+  }
+}
+
+.clients-icon-logo {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: calc (100% / 6-30);
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 170px;
+   & a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: $clients-border;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  & a:hover,
+  &:focus {
+    border-color: $primary-color;
+  }
+}
+
+.logo-svg {
+  fill: $button-svg;
+  &:hover .logo-svg {
+    fill: $primary-color;
+  }
+}
+
